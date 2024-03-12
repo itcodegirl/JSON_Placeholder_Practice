@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: inline-block;
+  background-color: #282c34;
+  color: #abb2bf;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+h1 {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 28px;
+}
+
+p {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 20px;
+}
+
+ul,
+ol {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 18px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
